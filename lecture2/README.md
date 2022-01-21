@@ -96,7 +96,7 @@
    Ответ: Единственное что смог найти: то, что при подключении ожидается пользователь, а не другой процесс, и нет локального tty в данный момент. 
     для запуска можно добавить -t - , и команда исполняется c принудительным созданием псевдотерминала
 
-   vagrant@vagrant:~$ ssh -t localhost 'tty'
+   vagrant@vagrant:$ ssh -t localhost 'tty'
    vagrant@localhost's password: 
    /dev/pts/2
    Connection to localhost closed.
